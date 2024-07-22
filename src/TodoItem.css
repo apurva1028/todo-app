@@ -1,0 +1,31 @@
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  .completed {
+    background-color: #e0e0e0;
+  }
+  
+  li span {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-left: 8px;
+    padding: 4px 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
